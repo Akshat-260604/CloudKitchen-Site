@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  
+  
+  }
+  
+  body {
+    background-color: black;
+    color: white font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar {
+    top: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+    padding-right: 1%;
+  }
+  
+  .navbar_akshat {
+    height: 100%;
+    width: 200px;
+  }
+  
+  .navbar_items {
+    display: flex;
+    gap: 15px;
+    padding-top: 5%;
+  
+  
+  }
+  
+  .logo {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .language {
+    background: transparent;
+    color: grey;
+    border: none;
+  }
+  
+  .log_in {
+    background: transparent;
+    width: 50px;
+    height: 20px;
+    color: red;
+    border: yellowgreen;
+  }
+  
+  .dropdown {
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba (0, 0, 0, 0.4);
+  
+  }
+  
+  .log_in {
+    border: 1px solid #007ac3;
+    background-color: #007ac3;
+    ;
+    padding: 0.25rem 0.5rem;
+    color: white;
+    border-radius: 4px;
+  
+    height: 35px;
+    width: 100px;
+  }
+  
+  
+  .material_writing {
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color : white;
+  }
+  
+  .material_title {
+    font-weight: 600;
+    font-size: 3rem
+    color : white;
+    text-align : center;
+  }
+  
+  .material_secondtitle,
+  material_description {
+    font-weight: 400;
+    font-size: 1.3rem;
+    color : white;
+    text-align : center;
+  }
